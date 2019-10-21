@@ -1,0 +1,129 @@
+body {
+    background-color: #f9fafc;
+}
+
+.topContainer {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal, 800;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul {
+    display: flex;
+    flex: 4.5;
+    justify-content: space-between;
+}
+
+.chirpus {
+    flex: 5.5;
+}
+
+a:link, a:visited {
+    color: #69696a;
+}
+
+a:hover {
+    color: #D4AF37;
+}
+
+a.hireUs:link, a.hireUs:visited {
+    background-color: #000;
+    color: #f9fafc;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+a.hireUs:hover {
+    background-color: #D4AF37;
+}
+
+li {
+    white-space: nowrap;
+    padding: 5px;
+    color: #69696a;
+}
+
+.middleContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.leftColumn {
+    flex: 5.5;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.chirp {
+    font-size: 200%;
+}
+
+.proin {
+    border-left: 3px solid #C1C1C1;
+    color: #69696a;
+    font-size: 75%;
+    padding-left: 10px;
+}
+
+.rightColumn {
+    flex: 4.5;
+    align-content: right;
+}
+
+.cir1 {
+    background-color: rgb(247, 136, 167, 0.6);
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    margin-left: 10px;
+    position: relative;
+    top: 50px;
+}
+
+.cir2 {
+    background-color: rgb(207, 130, 213, 0.6);
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    position: relative;
+    top: -225px;
+    left: 265px;
+}
+
+.cir3 {
+    background-color: rgb(247, 193, 162, 0.7);
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    position: relative;
+    top: -260px;
+    left: 218px;
+}
+
+.bottomContainer {
+    display: flex;
+    justify-content: center;
+}
+
+a.scrollDown:link, a.scrollDown:visited {
+    background-color: #000;
+    color: #f9fafc;
+    font-family: 'Open Sans', sans-serif;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+a.scrollDown:hover {
+    background-color: #D4AF37;
+}
